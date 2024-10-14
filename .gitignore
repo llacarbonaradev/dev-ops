@@ -1,0 +1,11 @@
+# ignore macOS system files
+.DS_Store
+
+# ignore python env
+venv/
+__pycache__/
+
+# ignore docker and terraform-related files
+.terraform/
+*.tfstate
+*.log
